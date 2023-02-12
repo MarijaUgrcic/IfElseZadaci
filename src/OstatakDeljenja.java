@@ -8,7 +8,7 @@ public class OstatakDeljenja {
         if (x % y == 0) {
             System.out.println("Ostatak ne postoji!");
         }
-        if (x % y > 1000) {
+        else if (x % y > 1000) {
             System.out.println("Ostatak je veci od hiljadu!");
         } else {
             System.out.println("Ostatak je manji od hiljadu!");
